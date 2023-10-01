@@ -36,9 +36,11 @@ def process_text(text, to_lower, to_upper, to_title, replace_word, replace_with,
 st.title('Editar Texto :page_facing_up:')
 
 # Barra lateral com links úteis
-st.sidebar.header('Conheça Nossos Apps!')
-st.sidebar.write('[Em Breve!](https://www.google.com)')
-st.sidebar.write('[Em Breve!](https://www.google.com)')
+st.sidebar.markdown("### Ferramentas Úteis 🛠️")
+st.sidebar.markdown("[🌐 Gere Nuvens de Palavras e Analise Textos!](https://myfavouriteutilitiestextedit.streamlit.app/) - Transforme seus textos em visualizações impactantes e obtenha insights rápidos!")
+st.sidebar.markdown("[🔍 Crie QR Codes de Graça!](https://myfavouriteutilitiesqrcodea.streamlit.app/) - Converta textos e links em QR Codes facilmente!")
+
+
 # Adicione mais links conforme necessário
 
 # Caixa de texto para entrada do usuário
